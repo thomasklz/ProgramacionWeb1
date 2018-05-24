@@ -1,0 +1,67 @@
+body {
+	background-image: url('../imagenes/descarga.jpg');
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #fff
+}
+.banners{
+	background-color: gray;
+	width: auto;
+	height: 180px;
+	position:relative;
+}
+.titlepage{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: "Bauhaus 93";
+	width: 500px;
+	height: 50px;
+    left: 64%;
+    position: absolute;
+	top: 100px;
+
+}
+.logopage{
+
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 90%;
+
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+.caja{
+	position: relative;
+	top: 50px;
+	bottom:0;
+	left:50px;
+	right: 0;
+}
+header nav {
+	background-color: #90C0B6;
+	overflow: hidden;
+
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;;
+
+}
+header nav ul li a {
+	padding: 10px 20px;
+	background-color: green;
+	display: block;
+	text-decoration: none;
+
+}
+header nav ul li a:hover {
+	background-color: #90C0B6;
+}
